@@ -127,10 +127,8 @@ if __name__ == "__main__":
     
     #Main Pgm
     print("*****************************************WELCOME*****************************************")
-    username = input("Enter Username: ")
-    #username = "me_bonisebi"   
-    password = input("Enter Password: ")
-    #password = "boni29141921"
+    username = input("Enter Username: ")     
+    password = input("Enter Password: ")   
     url = "https://www.instagram.com/"
 
     scrapper = WebScrapper(url,username,password)
